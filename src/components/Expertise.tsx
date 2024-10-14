@@ -10,7 +10,7 @@ export default function Expertise() {
                     <div className="flex gap-2">
 
                         <div>
-                            <img src="/Experiencia/sudisa.jpg" alt="SUDISA Logo" className="w-24 rounded-lg"/>
+                            <img src="/Experiencia/sudisa.jpg" alt="SUDISA Logo" className="w-24 rounded-lg" />
                         </div>
 
                         <div>
@@ -22,20 +22,23 @@ export default function Expertise() {
 
                     <div className="flex flex-col justify-center gap-3">
                         <article className="bg-container_bg rounded-lg mt-5 p-5">
-                            <p className="text-white font-semibold">Responsabilidades:</p>
+                            <p className="text-white font-semibold">Responsabilidades y Logros:</p>
 
                             <ul className="text-white list-disc pl-5">
-                                <li className="pt-2">Dar mantenimiento al sistema y arreglar errores que surjan.</li>
-                                <li>Diseñar y desarrollar nuevas características para mejorar el sistema y su calidad.</li>
-                                <li>Comunicación constante con diferentes áreas para proveer soluciones prácticas.</li>
-                            </ul>
-
-                            <br />
-                            <p className="text-white font-semibold">Logros:</p>
-
-                            <ul className="text-white list-disc pl-5">
-                                <li className="pt-2">Implemente un sistema de consulta de documentos para agilizar el proceso un 30% usando Google Drive.</li>
-                                <li>Desarrollé una nueva funcionalidad para guardar información en Google Sheets un 20% más rápido.</li>
+                                <li>Reparé un script de envío de correos, logrando que los reportes incluyeran todas las
+                                    estaciones, lo que aumentó la precisión de la información compartida en un 50%.
+                                </li>
+                                <li>Implementé una función de conteo automático de registros en el sistema de filtrado, lo que
+                                    redujo el tiempo de revisión manual en un 40% y mejoró la eficiencia del equipo
+                                    administrativo.
+                                </li>
+                                <li>Desarrollé desde cero un sistema digital para gestionar documentos de maquinaria, lo que
+                                    eliminó el 100% de los costos de impresión y aceleró las actualizaciones en en un 60%.
+                                </li>
+                                <li>Añadí una funcionalidad adicional al sistema para digitalizar registros manuales utilizados
+                                    en algunas estaciones, almacenándolos automáticamente en Google Sheets, lo que
+                                    mejoró la accesibilidad y organización de los registros en un 50%.
+                                </li>
                             </ul>
                         </article>
 
@@ -68,20 +71,20 @@ export default function Expertise() {
 
                     <div className="flex flex-col justify-center gap-3">
                         <article className="bg-container_bg rounded-lg mt-5 p-5">
-                            <p className="text-white font-semibold">Responsabilidades:</p>
+                            <p className="text-white font-semibold">Responsabilidades y Logros:</p>
 
                             <ul className="text-white list-disc pl-5">
-                                <li className="pt-2">Trabajar con RESTful APIs para crear endpoints que interactúen con la base de datos.</li>
-                                <li>Crear nuevas funcionalidades usando el modelo MVC y SCRUM.</li>
-                                <li>Juntas diarias con el líder de equipo  y algunas juntas con el cliente.</li>
-                                <li>Crear interfaces responsive, arreglar errores y actualizar módulos viejos.</li>
-                            </ul>
-
-                            <br />
-                            <p className="text-white font-semibold">Logros:</p>
-
-                            <ul className="text-white list-disc pl-5">
-                                <li className="pt-2">Desarrollé un sistema para el registro de visitas en un fraccionamiento agilizando el proceso un 20%.</li>
+                                <li>Ajusté una vista en la aplicación para que se viera correctamente en dispositivos de
+                                    diferentes tamaños.
+                                </li>
+                                <li>Corregí un endpoint para obtener y almacenar datos correctamente, y desarrollé un script
+                                    para mostrarlos en el frontend, garantizando una visualización responsiva.
+                                </li>
+                                <li>Diseñé y desarrollé un sistema completo para la administración de visitas a un
+                                    fraccionamiento mediante QR reutilizables. Incluí la creación de tablas de base de datos,
+                                    endpoints y vistas, mejorando el control y eficiencia del proceso de registro de visitantes
+                                    reduciendo el tiempo de registro de visitas en un 30%.
+                                </li>
                             </ul>
                         </article>
 
