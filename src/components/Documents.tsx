@@ -12,10 +12,10 @@ export default function Documents() {
                         <a href="/Documentos/PDF/CV-Jose-Castañeda.pdf" download={true}><img src="/Documentos/CV-Español.png" alt="CV Español" className="w-40 rounded-lg hover:" /></a>
                     </div>
 
-                    <div className="flex flex-col justify-center transition duration-200 transform hover:scale-110">
+{/*                     <div className="flex flex-col justify-center transition duration-200 transform hover:scale-110">
                         <p className="text-white mb-1 text-center">CV (English)</p>
                         <a href="/Documentos/PDF/CV-Jose-Castaneda.pdf" download={true}><img src="/Documentos/CV-English.png" alt="CV Ingles" className="w-40 rounded-lg" /></a>
-                    </div>
+                    </div> */}
 
                     <div className="flex flex-col justify-center transition duration-200 transform hover:scale-110">
                         <p className="text-white mb-1 text-center">Carta de Recomendación</p>
