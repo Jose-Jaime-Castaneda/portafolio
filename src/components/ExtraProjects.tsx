@@ -1,19 +1,7 @@
-import { useState } from "react";
-import ExtraProjects from "./ExtraProjects";
-
-export default function Projects() {
-    const [extraProjects, setExtraProjects] = useState(false)
-
-    const handleButton = () => {
-        setExtraProjects(!extraProjects)
-    }
-
-
+export default function ExtraProjects() {
     return (
         <>
-            <article className="mt-24 w-5/6">
-
-                <h2 className="text-white text-4xl text-center uppercase">Proyectos</h2>
+            <article className="w-5/6">
 
                 <div className="mt-24 flex flex-col justify-center items-center">
                     {/**UpTask */}
@@ -69,20 +57,6 @@ export default function Projects() {
                         <img src="/javascript.svg" alt="JavaScript Logo" className="invert w-10" />
                         <img src="/expo.svg" alt="Expo Logo" className="invert w-10" />
                         <img src="/firebase.svg" alt="Firebase Logo" className="invert w-10" />
-                    </div>
-                    {/**Extra Projects */}
-                    {extraProjects && (
-                        <ExtraProjects />
-                    )}
-                    {/**Button */}
-                    <div className="mt-20">
-                        <button
-                            type="button"
-                            className="bg-gray-200 px-10 py-2 rounded-lg hover:bg-slate-300 text-xl"
-                            onClick={handleButton}
-                        >
-                            {extraProjects ? 'Ver menos' : 'Ver más'}
-                        </button>
                     </div>
                 </div>
 
