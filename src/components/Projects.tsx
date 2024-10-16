@@ -22,9 +22,9 @@ export default function Projects() {
 
                         <div className="">
                             <h4 className="text-white text-xl font-semibold">Full Stack Web Developer Jr - UpTask</h4>
-                            <p className="text-white mt-1"><span className="text-gray-400 bg-container_bg rounded-lg p-0.5">Mayo 2023 - Julio 2023</span> Proyecto Personal</p>
+                            <p className="text-white mt-1"><span className="text-gray-400 bg-container_bg rounded-lg p-0.5">Julio 2024 - Septiembre 2024</span> Proyecto Personal</p>
                             <div className="text-white bg-container_bg rounded-lg p-2 mt-3">
-                                <p>Es una aplicación web que sirve para addministrar proyectos. Se pueden agergar tareas y colaboradores.</p>
+                                <p>Es una aplicación web que sirve para administrar proyectos. Se pueden agergar tareas y colaboradores.</p>
                             </div>
                         </div>
                     </div>
@@ -39,15 +39,36 @@ export default function Projects() {
                         <a href="https://github.com/Jose-Jaime-Castaneda/UpTask-Backend" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/github.svg" alt="Github" className="invert w-10" /></a>
                         <a href="https://vercel.live/link/uptask-eight.vercel.app/?via=team-dashboard-project-entity&p=1" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/web.svg" alt="LinkedIn" className="invert w-10" /></a>
                     </div>
+                    {/**Quiosco */}
+                    <div className="flex gap-5 items-center max-w-[550px]">
+                        <img src="/Proyectos/Quiosco.svg" alt="UpTask" className="rounded-lg bg-container_bg w-24 p-2" />
+
+                        <div className="">
+                            <h4 className="text-white text-xl font-semibold">Full Stack Web Developer Jr - Quisco App</h4>
+                            <p className="text-white mt-1"><span className="text-gray-400 bg-container_bg rounded-lg p-0.5">Junio 2024 - Julio 2024</span> Proyecto Personal</p>
+                            <div className="text-white bg-container_bg rounded-lg p-2 mt-3">
+                                <p>Es una aplicación que emula un quisco de venta, con varias categorias y prodcutos, se pueden crear, liberar y mostrar las ordenes de los usuarios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex gap-4 items-center flex-wrap mt-3">
+                        <img src="/next.svg" alt="Next Logo" className="invert w-10" />
+                        <img src="/typescript.svg" alt="TypeScript Logo" className="invert w-10" />
+                        <img src="/tailwindcss.svg" alt="Tailwind Logo" className="invert w-10" />
+                        <img src="/postgresql.svg" alt="PosgreSQL Logo" className="invert w-10" />
+                        <p className="text-white"> | </p>
+                        <a href="https://github.com/Jose-Jaime-Castaneda/quiosco" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/github.svg" alt="Github" className="invert w-10" /></a>
+                        <a href="https://quiosco-blue.vercel.app/order/cafe" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/web.svg" alt="LinkedIn" className="invert w-10" /></a>
+                    </div>
                     {/**NDG */}
                     <div className="flex gap-5 items-center mt-16 max-w-[550px]">
                         <img src="/Proyectos/green-icon.ico" alt="NDG" className="rounded-lg w-24" />
 
                         <div className="">
                             <h4 className="text-white text-xl font-semibold">Full Stack Web Developer Jr - NDG</h4>
-                            <p className="text-white mt-1"><span className="bg-container_bg rounded-lg p-0.5 text-gray-400">Febrero 2023 - Marzo 2023</span> Proyecto Freelance</p>
+                            <p className="text-white mt-1"><span className="bg-container_bg rounded-lg p-0.5 text-gray-400">Enero 2024 - Febrero 2024</span> Proyecto Freelance</p>
                             <div className="text-white bg-container_bg rounded-lg p-2 mt-3">
-                                <p>Landing Page personalizada para una empresa mexicana que se dedica a la venta y reparación de equipo dental</p>
+                                <p>Landing Page personalizada para una empresa mexicana que se dedica a la venta y reparación de equipo dental.</p>
                             </div>
                         </div>
                     </div>
@@ -56,6 +77,7 @@ export default function Projects() {
                         <img src="/typescript.svg" alt="TypeScript Logo" className="invert w-10" />
                         <img src="/bootstrap.svg" alt="Bootstrap Logo" className="invert w-10" />
                         <p className="text-white"> | </p>
+                        <a href="https://github.com/Jose-Jaime-Castaneda/NDG" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/github.svg" alt="Github" className="invert w-10" /></a>
                         <a href="https://nuevadentalgdl.com/" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/web.svg" alt="LinkedIn" className="invert w-10" /></a>
                     </div>
                     {/**Adogtame */}
@@ -64,7 +86,7 @@ export default function Projects() {
 
                         <div className="">
                             <h4 className="text-white text-xl font-semibold">Full Stack Movil Developer Jr - Adogtame</h4>
-                            <p className="text-white mt-1"><span className="bg-container_bg rounded-lg p-0.5 text-gray-400">Marzo 2023 - Mayo 2023 </span> Proyecto Academico y Persona</p>
+                            <p className="text-white mt-1"><span className="bg-container_bg rounded-lg p-0.5 text-gray-400">Marzo 2023 - Mayo 2023</span> Proyecto Academico y Personal</p>
                             <div className="text-white bg-container_bg rounded-lg p-2 mt-3">
                                 <p>El objetivo de la aplicación es facilitar el proceso de adopción de mascotas, tanto para usuarios indivuduales como para perreras.</p>
                             </div>
