@@ -51,10 +51,12 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex gap-4 flex-wrap mt-3">
+                    <div className="flex gap-4 items-center flex-wrap mt-3">
                         <img src="/react.svg" alt="React Logo" className="invert w-10" />
                         <img src="/typescript.svg" alt="TypeScript Logo" className="invert w-10" />
                         <img src="/bootstrap.svg" alt="Bootstrap Logo" className="invert w-10" />
+                        <p className="text-white"> | </p>
+                        <a href="https://nuevadentalgdl.com/" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/web.svg" alt="LinkedIn" className="invert w-10" /></a>
                     </div>
                     {/**Adogtame */}
                     <div className="flex gap-5 items-center mt-16 max-w-[550px]">
@@ -68,11 +70,13 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex gap-4 flex-wrap mt-3">
+                    <div className="flex gap-4 items-center flex-wrap mt-3">
                         <img src="/react.svg" alt="React Logo" className="invert w-10" />
                         <img src="/javascript.svg" alt="JavaScript Logo" className="invert w-10" />
                         <img src="/expo.svg" alt="Expo Logo" className="invert w-10" />
                         <img src="/firebase.svg" alt="Firebase Logo" className="invert w-10" />
+                        <p className="text-white"> | </p>
+                        <a href="https://github.com/Jose-Jaime-Castaneda/Adogtame" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/github.svg" alt="Github" className="invert w-10" /></a>
                     </div>
                     {/**Extra Projects */}
                     {extraProjects && (
