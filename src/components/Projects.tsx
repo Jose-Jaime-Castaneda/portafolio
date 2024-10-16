@@ -35,6 +35,11 @@ export default function Projects() {
                         <img src="/nodedotjs.svg" alt="Node Logo" className="invert w-10" />
                         <img src="/express.svg" alt="Express Logo" className="invert w-10" />
                     </div>
+                    <div className="flex gap-4 flex-wrap mt-3">
+                        <a href="https://github.com/Jose-Jaime-Castaneda/UpTask-Frontend" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/github.svg" alt="Github" className="invert w-10" /></a>
+                        <a href="https://github.com/Jose-Jaime-Castaneda/UpTask-Backend" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/github.svg" alt="Github" className="invert w-10" /></a>
+                        <a href="https://vercel.live/link/uptask-eight.vercel.app/?via=team-dashboard-project-entity&p=1" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/web.svg" alt="LinkedIn" className="invert w-10" /></a>
+                    </div>
                     {/**NDG */}
                     <div className="flex gap-5 items-center mt-16 max-w-[550px]">
                         <img src="/Proyectos/green-icon.ico" alt="NDG" className="rounded-lg w-24" />
