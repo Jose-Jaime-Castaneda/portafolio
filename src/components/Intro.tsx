@@ -10,10 +10,7 @@ export default function Intro() {
 
                 <div className="flex gap-3 flex-wrap">
                     <div className="bg-container_bg rounded-lg">
-                        <p className="text-sm sm:text-lg lg:text-xl p-3 text-white">Soy un <span className="text-azulito text-base sm:text-xl lg:text-2xl">Desarrollador Web Full Stack Jr</span> que trabaja mayormente con el MERN stack agregando TypeScript y Tailwind CSS.
-                            <br />
-                            <br />
-                            Estoy constantemente buscando cosas nuevas para aprender y crecer profesionalmente. Lo último que aprendí fue a usar la API de Google Drive para un proyecto interno en mi trabajo.
+                        <p className="text-sm sm:text-lg lg:text-xl p-3 text-white">Soy un <span className="text-azulito text-base sm:text-xl lg:text-2xl">Desarrollador Web Full Stack</span> con experiencia en crear soluciones eficientes y escalables. Me especializo en la implementación de tecnologías modernas, aportando valor a cada proyecto con un enfoque en la mejora continua y la optimización de resultados.
                         </p>
                     </div>
                     <div className="flex flex-row gap-4 mt-3">
