@@ -10,7 +10,7 @@ export default function Intro() {
 
                 <div className="flex gap-3 flex-wrap">
                     <div className="bg-container_bg rounded-lg">
-                        <p className="text-sm sm:text-lg lg:text-xl p-3 text-white">Soy un <span className="text-azulito text-base sm:text-xl lg:text-2xl">Desarrollador Web Full Stack</span> con experiencia en crear soluciones eficientes y escalables. Me especializo en la implementación de tecnologías modernas, aportando valor a cada proyecto con un enfoque en la mejora continua y la optimización de resultados.
+                        <p className="text-sm sm:text-lg lg:text-xl p-3 text-white">Soy un <span className="text-azulito text-base sm:text-xl lg:text-2xl"> Desarrollador Web Full Stack</span>, especializado en soluciones eficientes y escalables con tecnologías modernas, siempre enfocado en la mejora continua y optimización de resultados.
                         </p>
                     </div>
                     <div className="flex flex-row gap-4 mt-3">
