@@ -28,14 +28,13 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex gap-4 flex-wrap mt-3">
+                    <div className="flex gap-4 items-center flex-wrap mt-3">
                         <img src="/react.svg" alt="React Logo" className="invert w-10" />
                         <img src="/typescript.svg" alt="TypeScript Logo" className="invert w-10" />
                         <img src="/tailwindcss.svg" alt="Tailwind Logo" className="invert w-10" />
                         <img src="/nodedotjs.svg" alt="Node Logo" className="invert w-10" />
                         <img src="/express.svg" alt="Express Logo" className="invert w-10" />
-                    </div>
-                    <div className="flex gap-4 flex-wrap mt-3">
+                        <p className="text-white"> | </p>
                         <a href="https://github.com/Jose-Jaime-Castaneda/UpTask-Frontend" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/github.svg" alt="Github" className="invert w-10" /></a>
                         <a href="https://github.com/Jose-Jaime-Castaneda/UpTask-Backend" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/github.svg" alt="Github" className="invert w-10" /></a>
                         <a href="https://vercel.live/link/uptask-eight.vercel.app/?via=team-dashboard-project-entity&p=1" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/web.svg" alt="LinkedIn" className="invert w-10" /></a>
