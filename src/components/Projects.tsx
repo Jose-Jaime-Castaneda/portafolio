@@ -40,7 +40,7 @@ export default function Projects() {
                         <a href="https://vercel.live/link/uptask-eight.vercel.app/?via=team-dashboard-project-entity&p=1" target="_blank" className="transition duration-200 transform hover:scale-110"><img src="/web.svg" alt="LinkedIn" className="invert w-10" /></a>
                     </div>
                     {/**Quiosco */}
-                    <div className="flex gap-5 items-center max-w-[550px]">
+                    <div className="flex gap-5 mt-16 items-center max-w-[550px]">
                         <img src="/Proyectos/Quiosco.svg" alt="UpTask" className="rounded-lg bg-container_bg w-24 p-2" />
 
                         <div className="">
